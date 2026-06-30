@@ -1,0 +1,49 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local env and caches
+.env
+.env.*
+!.env.example
+node_modules/
+.cache/
+.pytest_cache/
+__pycache__/
+
+# Private, paid, or raw source materials
+source-materials/
+raw-materials/
+private-materials/
+paid-pdfs/
+work-documents/
+personal-data/
+originals/
+local-only/
+
+# Original document formats should stay out of Git by default
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.pages
+*.numbers
+*.key
+
+# Large media/source captures
+*.mp4
+*.mov
+*.m4a
+*.mp3
+*.wav
+*.zip
+*.7z
+*.tar
+*.tar.gz
