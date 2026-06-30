@@ -1,27 +1,178 @@
-# Electrician Learning Resources
+# 전기기사 실기 Resources
 
-This file records trusted resources and private source locations without committing original materials.
+현재 등록된 공개 자료 원문은 없다.
+
+이 파일은 자료 원문을 저장하는 곳이 아니다. PDF, 유료교재, 기출문제 원문 전체, 업무자료, 개인정보는 Git에 커밋하지 않는다. 원문은 로컬의 ignored 폴더나 개인 보관 위치에 두고, 여기에는 자료명/용도/위치 설명만 적는다.
+
+## 입력 템플릿
+
+```md
+### {자료명}
+
+- 종류: 공식 자료 / 기출 / 해설 / 오답노트 / 교재 / 강의 / 기타
+- 공개 가능 여부: 공개 가능 / 비공개 / 일부 요약만 가능
+- 원문 위치: {로컬 또는 개인 보관 위치 설명. 실제 파일 첨부 금지}
+- 사용 목적: {예: 2024년 1회차 5문제 lesson 작성}
+- HTML 반영 가능 범위:
+  - 문제 요약:
+  - 풀이 흐름:
+  - 공식:
+  - 오답 포인트:
+  - 자작 변형문제:
+- 금지 범위:
+  - 문제 원문 전체:
+  - PDF 원문:
+  - 유료교재 원문:
+```
 
 ## Knowledge
 
-- No primary resources have been added yet.
-  Use this section for official standards, textbooks, public safety guidance, or other trusted sources.
+### [전기치트키] 오장육부F_rev0.pdf
 
-## Wisdom
+- 종류: 공식/암기 자료
+- 공개 가능 여부: 일부 요약만 가능
+- 원문 위치: `source-materials/gmail-2026-06-30-electrical-practical/[전기치트키] 오장육부F_rev0.pdf`
+- 사용 목적: 전기기사 실기 공식표, 암기 포인트, 오답 포인트 정리
+- HTML 반영 가능 범위:
+  - 문제 요약: 해당 없음
+  - 풀이 흐름: 공개 가능한 범위에서 재작성
+  - 공식: 핵심 공식만 재정리
+  - 오답 포인트: 자주 헷갈리는 조건 중심으로 재작성
+  - 자작 변형문제: 가능
+- 금지 범위:
+  - PDF 원문 전체
+  - 유료/저작권 자료 본문 복사
+  - 이미지 캡처 원문
 
-- No communities or mentors have been added yet.
-  Use this section for forums, local classes, qualified practitioners, or other places to test judgment.
+### KEC강의노트_2021_08_31(2차수정)-1.pdf
+
+- 종류: 공식/이론 자료
+- 공개 가능 여부: 일부 요약만 가능
+- 원문 위치: `source-materials/gmail-2026-06-30-electrical-practical-2/KEC강의노트_2021_08_31(2차수정)-1.pdf`
+- 사용 목적: KEC 관련 공식표, 기준 요약, 기출 풀이 근거 정리
+- HTML 반영 가능 범위:
+  - 문제 요약: 해당 없음
+  - 풀이 흐름: 공개 가능한 범위에서 재작성
+  - 공식: 핵심 공식과 적용 조건만 재정리
+  - 오답 포인트: 기준/조건 혼동 중심으로 재작성
+  - 자작 변형문제: 가능
+- 금지 범위:
+  - PDF 원문 전체
+  - 강의노트 본문 복사
+  - 이미지 캡처 원문
+
+## 기출 자료
+
+### 2023년 전기기사 실기 기출문제_다산에듀.pdf
+
+- 종류: 기출
+- 공개 가능 여부: 일부 요약만 가능
+- 원문 위치: `source-materials/gmail-2026-06-30-electrical-practical/2023년 전기기사 실기 기출문제_다산에듀.pdf`
+- 사용 목적: 하루 5문제 HTML lesson 범위 선정
+- HTML 반영 가능 범위:
+  - 문제 요약: 가능
+  - 풀이 흐름: 직접 재작성
+  - 공식: 가능
+  - 오답 포인트: 가능
+  - 자작 변형문제: 가능
+- 금지 범위:
+  - 기출문제 원문 전체
+  - PDF 원문
+  - 해설 본문 복사
+
+### 2024년 전기기사 실기 기출문제_다산에듀.pdf
+
+- 종류: 기출
+- 공개 가능 여부: 일부 요약만 가능
+- 원문 위치: `source-materials/gmail-2026-06-30-electrical-practical/2024년 전기기사 실기 기출문제_다산에듀.pdf`
+- 사용 목적: 하루 5문제 HTML lesson 범위 선정
+- HTML 반영 가능 범위:
+  - 문제 요약: 가능
+  - 풀이 흐름: 직접 재작성
+  - 공식: 가능
+  - 오답 포인트: 가능
+  - 자작 변형문제: 가능
+- 금지 범위:
+  - 기출문제 원문 전체
+  - PDF 원문
+  - 해설 본문 복사
+
+### ocr _ 전기기사 실기 2024-1.pdf
+
+- 종류: 기출/OCR 자료
+- 공개 가능 여부: 일부 요약만 가능
+- 원문 위치: `source-materials/gmail-2026-06-30-electrical-practical-2/ocr _ 전기기사 실기 2024-1.pdf`
+- 사용 목적: 2024년 1회차 중심 하루 5문제 HTML lesson 범위 선정
+- HTML 반영 가능 범위:
+  - 문제 요약: 가능
+  - 풀이 흐름: 직접 재작성
+  - 공식: 가능
+  - 오답 포인트: 가능
+  - 자작 변형문제: 가능
+- 금지 범위:
+  - 기출문제 원문 전체
+  - PDF 원문
+  - OCR 텍스트 전체 복사
+
+### ocr _ 전기기사 실기 2024-2.pdf
+
+- 종류: 기출/OCR 자료
+- 공개 가능 여부: 일부 요약만 가능
+- 원문 위치: `source-materials/gmail-2026-06-30-electrical-practical-2/ocr _ 전기기사 실기 2024-2.pdf`
+- 사용 목적: 2024년 2회차 중심 하루 5문제 HTML lesson 범위 선정
+- HTML 반영 가능 범위:
+  - 문제 요약: 가능
+  - 풀이 흐름: 직접 재작성
+  - 공식: 가능
+  - 오답 포인트: 가능
+  - 자작 변형문제: 가능
+- 금지 범위:
+  - 기출문제 원문 전체
+  - PDF 원문
+  - OCR 텍스트 전체 복사
+
+### 2025년 전기기사 실기 기출문제_다산에듀.pdf
+
+- 종류: 기출
+- 공개 가능 여부: 일부 요약만 가능
+- 원문 위치: `source-materials/gmail-2026-06-30-electrical-practical/2025년 전기기사 실기 기출문제_다산에듀.pdf`
+- 사용 목적: 하루 5문제 HTML lesson 범위 선정
+- HTML 반영 가능 범위:
+  - 문제 요약: 가능
+  - 풀이 흐름: 직접 재작성
+  - 공식: 가능
+  - 오답 포인트: 가능
+  - 자작 변형문제: 가능
+- 금지 범위:
+  - 기출문제 원문 전체
+  - PDF 원문
+  - 해설 본문 복사
+
+## 공식/암기 자료
+
+- `[전기치트키] 오장육부F_rev0.pdf`: `Knowledge` 섹션 참고
+- `KEC강의노트_2021_08_31(2차수정)-1.pdf`: `Knowledge` 섹션 참고
+
+## 오답 자료
+
+- 아직 없음
+
+## Gmail Attachments Pending Manual Download
+
+Gmail 커넥터가 아래 PDF 첨부를 `application/octet-stream`으로 인식해 직접 다운로드하지 못했다. 필요하면 Gmail 웹에서 내려받아 `source-materials/gmail-2026-06-30-electrical-practical/`에 넣고, 이 파일에 위치만 추가한다.
+
+- `전기(산업)기사 실기 감리문제 모음(16년_21년)_220304.pdf`
+- `[린치핀에듀]전기기사 필기 치트키(F)_rev1_240426.pdf`
+- `최근 전기기사 실기시험에 출제된 필기문제 27개 모음.pdf`
+- `전기기사 실기 기출단답 정리(답있음).pdf`
+- `전기(산업)기사 실기 단답문제 모음(88년_21년)_220304.pdf`
 
 ## Private or Local Source Notes
 
-- Put paid PDFs, workplace documents, personal notes, and scanned originals outside Git or in ignored folders such as `source-materials/`, `raw-materials/`, `private-materials/`, or `paid-pdfs/`.
-- Record only the material name, purpose, and location description here.
-
-Example:
-
-- `{Material name}`: used for `{purpose}`. Stored in `{private/local location}`. Do not commit original.
+- 원문 자료는 `source-materials/`, `raw-materials/`, `private-materials/`, `paid-pdfs/`, `local-only/` 같은 ignored 폴더에만 둔다.
+- 이 repo에는 공개 가능한 요약, 풀이 흐름, 공식, 오답 포인트, 자작 변형문제만 남긴다.
 
 ## Gaps
 
-- Confirm the learner's specific electrician goal.
-- Add high-trust public resources after the goal is clarified.
+- 첫 5문제 학습 범위가 필요하다.
+- 공개 가능한 공식표 범위를 정해야 한다.

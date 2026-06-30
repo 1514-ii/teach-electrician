@@ -16,6 +16,7 @@ If the mission is vague, ask the learner one short question before teaching. Eve
 - `NOTES.md`: teaching preferences and short working notes.
 - `lessons/`: self-contained HTML lessons.
 - `reference/`: review cheat sheets and printable quick references.
+- `docs/`: public GitHub Pages site. Only public-safe HTML belongs here.
 - `learning-records/`: short records of demonstrated understanding.
 - `assets/`: reusable lesson CSS, scripts, diagrams, and images.
 - `sync/`: compact mobile summaries for ChatGPT.
@@ -29,6 +30,21 @@ If the mission is vague, ask the learner one short question before teaching. Eve
 5. Link to relevant reference sheets in `reference/`.
 6. Cite trusted resources from `RESOURCES.md`.
 7. Update `LEARNING_STATE.md` and `sync/CHATGPT_PROJECT_UPDATE.md` after meaningful progress.
+8. Treat Markdown lesson files as fallback or ChatGPT conversation helpers only.
+9. For electrician practical-exam study, build lessons around five problems per day.
+10. Include button-style quizzes and immediate feedback in each lesson.
+
+## Public Site Rules
+
+Use `docs/` for GitHub Pages. The public site should mirror only content that is safe to publish.
+
+- Author lessons in `lessons/*.html`.
+- Author cheat sheets in `reference/*.html`.
+- Copy public-safe lessons to `docs/lessons/`.
+- Copy public-safe references to `docs/reference/`.
+- Keep shared styles in both `assets/style.css` and `docs/assets/style.css`.
+- Do not publish full original problems, paid source text, PDF originals, or private materials.
+- Public HTML can include problem summaries, solution flow, formulas, wrong-answer points, and self-made variant questions.
 
 ## Reference Rules
 
