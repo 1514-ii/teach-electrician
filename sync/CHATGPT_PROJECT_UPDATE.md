@@ -1,6 +1,6 @@
 # ChatGPT Project Update
 
-Last updated: 2026-06-30
+Last updated: 2026-07-01
 
 ## Mission
 
@@ -13,7 +13,8 @@ Last updated: 2026-06-30
 - 비공개 PDF 원문 7개를 `source-materials/`에 보관 중이다.
 - 첫 reference: `reference/0001-core-theory-map.html`
 - 공개본: `docs/reference/0001-core-theory-map.html`
-- 아직 lesson은 없다.
+- 첫 lesson: `lessons/0001-2024-01-first-five.html`
+- 공개 lesson: `docs/lessons/0001-2024-01-first-five.html`
 
 ## How To Use This On Mobile
 
@@ -29,9 +30,9 @@ Suggested prompt:
 
 ## Next
 
-- 2024년 1회 기출 1-5번을 첫 lesson 후보로 잡는다.
-- 오장육부 이론 지도와 연결한다.
-- `lessons/0001-*.html`과 `docs/lessons/0001-*.html`을 만든다.
+- 2024년 1회 1-5번 lesson을 보고 분류 퀴즈를 푼다.
+- 1번 수변전 계산을 별도 보강 lesson으로 만든다.
+- 2024년 1회 6-10번을 다음 하루 5문제 lesson 후보로 잡는다.
 
 ## Source Safety
 

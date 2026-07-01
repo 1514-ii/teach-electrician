@@ -1,6 +1,6 @@
 # Learning State
 
-Last updated: 2026-06-30
+Last updated: 2026-07-01
 
 ## Current Exam Goal
 
@@ -10,7 +10,7 @@ Last updated: 2026-06-30
 
 - 아직 진단하지 않음
 - 보유 자료 있음: 비공개 PDF 원문 7개
-- 첫 5문제 lesson 미작성
+- 첫 5문제 lesson 작성됨
 
 ## Operating Mode
 
@@ -22,7 +22,7 @@ Last updated: 2026-06-30
 
 ## Latest Lesson
 
-- None yet
+- [2024년 1회 1-5번: 계산 조건을 먼저 분류하기](lessons/0001-2024-01-first-five.html)
 
 ## Latest Reference
 
@@ -47,6 +47,6 @@ Last updated: 2026-06-30
 
 ## Next
 
-- 2024년 1회 기출 1-5번을 첫 HTML lesson 후보로 잡는다.
+- 1번 수변전 계산을 따로 떼어 변압기 용량, CT비, 차단용량 순서로 복습한다.
 - Gmail 직접 첨부 PDF 5개가 필요하면 웹 Gmail에서 수동 다운로드한다.
-- 원문을 복사하지 않고 첫 HTML lesson의 공개 가능한 요약 구조를 만든다.
+- 2024년 1회 6-10번을 다음 하루 5문제 lesson 후보로 잡는다.

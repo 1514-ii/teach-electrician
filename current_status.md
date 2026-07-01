@@ -1,15 +1,17 @@
 # Current Status
 
-## 2026-06-30
-- Workspace purpose: Electrician practical exam study, HTML-first.
-- Public site source: `docs/` for GitHub Pages.
-- Private source materials: kept under ignored `source-materials/`; do not commit PDFs or full problem text.
-- First public reference created: `docs/reference/0001-core-theory-map.html`.
+Last updated: 2026-07-01
 
-## 2026-07-01
-- GitHub Pages is enabled from `main` / `docs`.
-- Public HTML design uses the PostHog-inspired warm browser-window style in `DESIGN.md`.
+## Latest
+- Latest lesson: [2024년 1회 1-5번: 계산 조건을 먼저 분류하기](lessons/0001-2024-01-first-five.html)
+- Public copy: [docs/lessons/0001-2024-01-first-five.html](docs/lessons/0001-2024-01-first-five.html)
+- Preview: GitHub Pages after commit/push
 
-## Next TODO
-- Create the first daily 5-question HTML lesson from 2024 exam material using summaries only.
-- Keep Markdown outputs as ChatGPT conversation helpers, not primary lessons.
+## Learned
+- First lesson groups 2024년 1회 1-5번 into 수변전 계산, KEC 기준, UPS 보호, 부하용량, 계약전력.
+- Public HTML keeps only summaries, formulas, solution flow, wrong-answer points, and self-made variants.
+
+## Next
+- Review lesson 0001 and answer the classification quiz.
+- Create a focused follow-up on 1번 수변전 계산.
+- Use 2024년 1회 6-10번 as the next daily 5-question lesson candidate.

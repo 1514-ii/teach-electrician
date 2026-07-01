@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3E%3Crect width=%2716%27 height=%2716%27 rx=%272%27 fill=%27%23f1a82c%27/%3E%3Cpath d=%27M4 11h8M5 8h6M6 5h4%27 stroke=%27%23111827%27 stroke-width=%271.5%27 stroke-linecap=%27square%27/%3E%3C/svg%3E">
+    <title>2024년 1회 1-5번 요약 | 전기기사 실기</title>
+    <link rel="stylesheet" href="../assets/style.css">
+  </head>
+  <body>
+    <div class="site-shell">
+      <div class="browser-window">
+        <div class="browser-titlebar" aria-hidden="true">
+          <div class="window-dots"><span></span><span></span><span></span></div>
+          <div class="url-bar">github.io/teach-electrician/lessons/0001-2024-01-first-five.html</div>
+        </div>
+        <header class="site-header">
+          <a class="brand" href="../index.html">전기기사 실기</a>
+          <nav class="top-nav" aria-label="주요 링크">
+            <a href="index.html">수업</a>
+            <a href="../reference/index.html">치트시트</a>
+            <a href="../wrong-notes/index.html">오답노트</a>
+          </nav>
+        </header>
+
+        <main>
+          <section class="hero compact">
+            <p class="eyebrow">Lesson 0001</p>
+            <h1>2024년 1회 1-5번: 계산 조건을 먼저 분류하기</h1>
+            <p class="lead">
+              첫 5문제는 수변전 계산, KEC 기준, UPS 보호, 건축물 부하용량, 계약전력 산정으로 나뉩니다.
+              원문 문제를 외우지 않고, 조건을 분류해 공식과 풀이 흐름을 고르는 연습을 합니다.
+            </p>
+          </section>
+
+          <section class="section">
+            <div class="section-heading">
+              <p class="eyebrow">Today</p>
+              <h2>오늘의 5문제 범위</h2>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>문제</th>
+                    <th>공개용 요약</th>
+                    <th>먼저 분류할 축</th>
+                    <th>핵심 실수</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>154kV급 수전설비 일부 조건으로 변압기 용량, CT비, 차단용량 등을 계산한다.</td>
+                    <td>수변전 보호</td>
+                    <td>기준 전압, 표준 용량, 여유율 적용 순서</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>물기 있는 장소 콘센트의 인체감전보호용 누전차단기 기준값을 묻는다.</td>
+                    <td>KEC와 설비 기준</td>
+                    <td>감도전류와 동작시간 숫자 혼동</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>UPS 2차측 고장 시 UPS와 고장회로를 분리하는 보호 방식을 고른다.</td>
+                    <td>수변전 보호</td>
+                    <td>보호기기 이름을 일반어로 흐리게 쓰는 실수</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>건축물 면적과 단위면적당 부하용량을 이용해 변압기 용량을 산정한다.</td>
+                    <td>부하와 역률</td>
+                    <td>VA에서 kVA로 바꾸는 10^-3 누락</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>계약부하 설비용량에 구간별 환산율을 적용해 계약 최대전력을 구한다.</td>
+                    <td>부하와 역률</td>
+                    <td>초과분만 다음 구간 환산율을 적용해야 함</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="section">
+            <div class="section-heading">
+              <p class="eyebrow">Flow</p>
+              <h2>풀이 흐름</h2>
+            </div>
+            <div class="grid three">
+              <div class="panel">
+                <span class="panel-label">1번</span>
+                <h2>수변전 계산</h2>
+                <p>부하용량은 수용률과 역률로 변압기 용량을 먼저 고른 뒤, 선정 용량 기준으로 1차 전류와 CT비를 계산합니다.</p>
+              </div>
+              <div class="panel">
+                <span class="panel-label">2-3번</span>
+                <h2>기준값과 보호</h2>
+                <p>KEC 숫자는 조건과 함께 외웁니다. UPS 보호는 “고장회로를 빠르게 떼어낸다”는 목적에 맞는 기기를 적습니다.</p>
+              </div>
+              <div class="panel">
+                <span class="panel-label">4-5번</span>
+                <h2>부하 환산</h2>
+                <p>면적 문제는 합산 후 단위 변환, 계약전력 문제는 구간을 끊어 누적 계산합니다.</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <div class="section-heading">
+              <p class="eyebrow">Formula</p>
+              <h2>오늘 쓰는 공식</h2>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>상황</th>
+                    <th>공식/기준</th>
+                    <th>체크 포인트</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>변압기 용량</td>
+                    <td>부하설비용량 x 수용률 / 역률</td>
+                    <td>계산값 다음에는 표준 용량으로 올려 선정</td>
+                  </tr>
+                  <tr>
+                    <td>3상 전류</td>
+                    <td>I = P / (sqrt(3) x V)</td>
+                    <td>P는 VA 기준, V는 선간전압 기준</td>
+                  </tr>
+                  <tr>
+                    <td>차단용량</td>
+                    <td>Ps = sqrt(3) x Vn x Is</td>
+                    <td>정격전압과 차단전류 단위를 맞춤</td>
+                  </tr>
+                  <tr>
+                    <td>계전기 임피던스</td>
+                    <td>Z = VA / I^2</td>
+                    <td>CT 2차 전류 5A 기준이면 25로 나눔</td>
+                  </tr>
+                  <tr>
+                    <td>욕실 등 물기 장소 콘센트</td>
+                    <td>15mA 이하, 0.03초 이하</td>
+                    <td>인체감전보호용 누전차단기 조건과 묶어 암기</td>
+                  </tr>
+                  <tr>
+                    <td>면적 부하</td>
+                    <td>총 VA = 면적 x 단위면적당 부하합</td>
+                    <td>kVA는 VA에 10^-3을 곱함</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="section">
+            <div class="section-heading">
+              <p class="eyebrow">Wrong Notes</p>
+              <h2>오답 포인트</h2>
+            </div>
+            <ol>
+              <li>수변전 문제는 답을 바로 계산하지 말고 “선정값을 다음 계산에 다시 쓰는지” 먼저 본다.</li>
+              <li>KEC 기준값은 숫자만 외우면 틀린다. 적용 장소와 보호기기 종류를 함께 묶는다.</li>
+              <li>UPS 보호 방식은 회로 분리 목적을 기준으로 차단기, 퓨즈, 반도체식 차단을 떠올린다.</li>
+              <li>건물 부하 문제는 VA, kVA, kW 단위가 섞이지 않도록 마지막에 단위를 크게 적는다.</li>
+              <li>계약전력은 전체 용량에 마지막 환산율을 한 번에 곱하지 않는다. 구간별로 끊는다.</li>
+            </ol>
+          </section>
+
+          <section class="section">
+            <div class="section-heading">
+              <p class="eyebrow">Practice</p>
+              <h2>자작 변형문제</h2>
+            </div>
+            <div class="grid three">
+              <div class="panel">
+                <span class="panel-label">변형 1</span>
+                <h2>면적 부하</h2>
+                <p>연면적 50,000m2, 조명 18VA/m2, 동력 30VA/m2, 냉방 32VA/m2이면 변압기 용량은 몇 kVA인가?</p>
+                <p><strong>풀이:</strong> (18+30+32) x 50,000 x 10^-3 = 4,000kVA</p>
+              </div>
+              <div class="panel">
+                <span class="panel-label">변형 2</span>
+                <h2>계전기 부담</h2>
+                <p>과전류계전기의 정격부담이 10VA이고 CT 2차 전류가 5A이면 임피던스는 몇 ohm인가?</p>
+                <p><strong>풀이:</strong> Z = 10 / 5^2 = 0.4ohm</p>
+              </div>
+              <div class="panel">
+                <span class="panel-label">변형 3</span>
+                <h2>KEC 기준</h2>
+                <p>물기 있는 장소 콘센트에 인체감전보호용 누전차단기를 적용할 때 확인할 두 숫자는?</p>
+                <p><strong>정리:</strong> 정격감도전류 15mA 이하, 동작시간 0.03초 이하</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <div class="section-heading">
+              <p class="eyebrow">Quiz</p>
+              <h2>분류 퀴즈</h2>
+            </div>
+            <p>“면적, VA/m2, 조명/동력/냉방 부하”가 보이면 가장 먼저 무엇을 해야 할까요?</p>
+            <div class="quiz-options">
+              <button class="quiz-button" data-correct="false">차단용량부터 계산한다</button>
+              <button class="quiz-button" data-correct="true">부하용량부터 합산한다</button>
+              <button class="quiz-button" data-correct="false">CT 여유율부터 곱한다</button>
+            </div>
+            <p class="feedback" id="feedback" hidden></p>
+          </section>
+
+          <section class="section">
+            <div class="section-heading">
+              <p class="eyebrow">Source Safety</p>
+              <h2>원문 비공개 기준</h2>
+            </div>
+            <div class="empty-state">
+              <p>비공개 참고자료: 2024년 전기기사 실기 기출 PDF.</p>
+              <p>이 lesson은 원문 문제, 원문 표, PDF 이미지, 해설 본문을 포함하지 않고 공개 가능한 요약과 재작성 풀이만 담습니다.</p>
+            </div>
+          </section>
+        </main>
+
+        <footer class="site-footer">
+          <p>다음 복습: 1번 수변전 계산만 따로 떼어 변압기 용량, CT비, 차단용량 순서로 다시 풀기.</p>
+        </footer>
+      </div>
+    </div>
+
+    <script>
+      const feedback = document.querySelector("#feedback");
+      document.querySelectorAll(".quiz-button").forEach((button) => {
+        button.addEventListener("click", () => {
+          const correct = button.dataset.correct === "true";
+          feedback.hidden = false;
+          feedback.textContent = correct
+            ? "맞습니다. 면적 부하는 단위면적당 부하를 먼저 합산하고, 면적을 곱한 뒤 kVA로 바꿉니다."
+            : "다시 보세요. 면적과 VA/m2가 보이면 보호기기보다 부하합산이 먼저입니다.";
+        });
+      });
+    </script>
+  </body>
+</html>
