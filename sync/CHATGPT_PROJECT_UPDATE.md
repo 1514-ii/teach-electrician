@@ -15,6 +15,8 @@ Last updated: 2026-07-01
 - 공개본: `docs/reference/0001-core-theory-map.html`
 - 첫 lesson: `lessons/0001-2024-01-first-five.html`
 - 공개 lesson: `docs/lessons/0001-2024-01-first-five.html`
+- 두 번째 lesson: `lessons/0002-2024-01-six-to-ten.html`
+- 공개 lesson: `docs/lessons/0002-2024-01-six-to-ten.html`
 
 ## How To Use This On Mobile
 
@@ -30,9 +32,9 @@ Suggested prompt:
 
 ## Next
 
-- 2024년 1회 1-5번 lesson을 보고 분류 퀴즈를 푼다.
-- 1번 수변전 계산을 별도 보강 lesson으로 만든다.
-- 2024년 1회 6-10번을 다음 하루 5문제 lesson 후보로 잡는다.
+- 2024년 1회 6-10번 lesson을 보고 구조 퀴즈를 푼다.
+- 보호계전기 약호 5개와 ON 병렬/OFF 직렬 구조를 암기 점검한다.
+- 2024년 1회 11-15번을 다음 하루 5문제 lesson 후보로 잡는다.
 
 ## Source Safety
 
