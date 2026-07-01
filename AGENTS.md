@@ -13,6 +13,7 @@ This repo is an HTML-first learning workspace for passing the Korean Electrical 
 5. Save source review cheat sheets in `reference/`.
 6. Copy only public-safe HTML to `docs/` for GitHub Pages.
 7. Update `LEARNING_STATE.md` and `sync/CHATGPT_PROJECT_UPDATE.md` after meaningful changes.
+8. Follow `DESIGN.md` for public HTML visual style.
 
 ## HTML-First Publishing Rules
 
@@ -40,3 +41,5 @@ This repo is an HTML-first learning workspace for passing the Korean Electrical 
 - Short, conclusion-first responses.
 - Prefer practical examples and retrieval practice.
 - Avoid large course generation before the mission is clarified.
+- Public HTML uses the PostHog-inspired warm browser-window style defined in `DESIGN.md`.
+- Keep `assets/style.css` and `docs/assets/style.css` synchronized.

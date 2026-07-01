@@ -12,6 +12,8 @@ Thumbs.db
 !.env.example
 node_modules/
 .cache/
+.superpowers/
+.playwright-cli/
 .pytest_cache/
 __pycache__/
 
