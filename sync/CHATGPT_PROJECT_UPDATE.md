@@ -1,6 +1,6 @@
 # ChatGPT Project Update
 
-Last updated: 2026-07-01
+Last updated: 2026-07-03
 
 ## Mission
 
@@ -17,6 +17,17 @@ Last updated: 2026-07-01
 - 공개 lesson: `docs/lessons/0001-2024-01-first-five.html`
 - 두 번째 lesson: `lessons/0002-2024-01-six-to-ten.html`
 - 공개 lesson: `docs/lessons/0002-2024-01-six-to-ten.html`
+- 세 번째 lesson: `lessons/0003-2024-01-eleven-to-fifteen.html`
+- 공개 lesson: `docs/lessons/0003-2024-01-eleven-to-fifteen.html`
+- YouTube 강의자료 9개 등록: `RESOURCES.md`
+- YouTube reference: `reference/0002-youtube-study-map.html`
+- 공개 YouTube reference: `docs/reference/0002-youtube-study-map.html`
+- YouTube transcript private cache: 97 clean transcripts under ignored `source-materials/youtube-transcripts/`
+- YouTube topic index: `source-materials/youtube-analysis/topic-index.md`
+- YouTube/PDF related private cache: 15 downloaded PDFs under ignored `source-materials/found-pdfs/downloads/`
+- PDF topic index: `source-materials/found-pdfs/analysis/topic-index.md`
+- PDF source/candidate status: `source-materials/found-pdfs/README.md`
+- User-added PDFs on 2026-07-03: supervision problems, Linchpin theory cheatkey, 27 practical-written theory questions, short-answer notes with answers
 
 ## How To Use This On Mobile
 
@@ -32,11 +43,16 @@ Suggested prompt:
 
 ## Next
 
-- 2024년 1회 6-10번 lesson을 보고 구조 퀴즈를 푼다.
-- 보호계전기 약호 5개와 ON 병렬/OFF 직렬 구조를 암기 점검한다.
-- 2024년 1회 11-15번을 다음 하루 5문제 lesson 후보로 잡는다.
+- 2024년 1회 11-15번 lesson을 보고 XOR 퀴즈를 푼다.
+- PLC 명령어 구조, 퓨즈 특성 시간권, 램프 효율, 펌프 출력 공식을 암기 점검한다.
+- YouTube 강의자료 지도에서 문제 축별 관련 강의를 1개만 골라 연결한다.
+- PDF topic index에서 전기기기, 수변전, 단답 자료를 1개만 골라 lesson 오답 포인트를 보강한다.
+- 감리 문제가 나오면 `practical-supervision-2016-2021.pdf` 추출 텍스트를 우선 확인한다.
+- 다음 lesson은 2024년 1회 16-18번 mini lesson 또는 2024년 1회 16-18번 + 2024년 2회 1-2번 daily set 중 하나로 잡는다.
 
 ## Source Safety
 
 - Do not commit paid PDFs, work documents, personal data, or raw source files.
 - Record only source name, purpose, and private/local location in `RESOURCES.md`.
+- YouTube captions/transcripts and lecture-note originals are not copied into public HTML.
+- PDF originals and extracted text stay under ignored `source-materials/`; public pages use rewritten summaries only.

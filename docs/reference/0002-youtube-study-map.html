@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3E%3Crect width=%2716%27 height=%2716%27 rx=%272%27 fill=%27%23f1a82c%27/%3E%3Cpath d=%27M4 11h8M5 8h6M6 5h4%27 stroke=%27%23111827%27 stroke-width=%271.5%27 stroke-linecap=%27square%27/%3E%3C/svg%3E">
+    <title>YouTube 강의자료 지도 | 전기기사 실기</title>
+    <link rel="stylesheet" href="../assets/style.css">
+  </head>
+  <body>
+    <div class="site-shell">
+      <div class="browser-window">
+        <div class="browser-titlebar" aria-hidden="true">
+          <div class="window-dots"><span></span><span></span><span></span></div>
+          <div class="url-bar">github.io/teach-electrician</div>
+        </div>
+    <header class="site-header">
+      <a class="brand" href="../index.html">전기기사 실기</a>
+      <nav class="top-nav" aria-label="주요 링크">
+        <a href="../lessons/index.html">수업</a>
+        <a href="index.html">치트시트</a>
+        <a href="../wrong-notes/index.html">오답노트</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero compact">
+        <p class="eyebrow">Reference 0002</p>
+        <h1>YouTube 강의자료 지도</h1>
+        <p class="lead">
+          조사해 둔 YouTube 강의를 하루 5문제 HTML lesson에 연결하기 위한 공개용 지도입니다.
+          영상 원문, 자막 전문, 강의노트 원문은 포함하지 않고, 어떤 주제에서 어떤 강의를 참고할지만 정리합니다.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="grid three">
+          <div class="panel">
+            <span class="panel-label">Priority</span>
+            <h2>실기 직결 먼저</h2>
+            <p>오장육부, 실기 꿀개념, 단답 반복 영상은 lesson 작성 때 바로 연결합니다.</p>
+          </div>
+          <div class="panel">
+            <span class="panel-label">Support</span>
+            <h2>필기는 보강용</h2>
+            <p>회로, 전력, KEC, 제어, 전기자기학은 실기 풀이가 막힐 때만 짧게 봅니다.</p>
+          </div>
+          <div class="panel">
+            <span class="panel-label">Rule</span>
+            <h2>보고 끝내지 않기</h2>
+            <p>강의 1개를 보면 바로 조건 판별, 공식 선택, 자작 변형문제 1개로 바꿉니다.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Transcript Cache</p>
+          <h2>비공개 자막 분석 상태</h2>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>항목</th>
+                <th>상태</th>
+                <th>사용법</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>입력 링크</td>
+                <td>9개</td>
+                <td>사용자가 조사한 강의 묶음을 원천 목록으로 둡니다.</td>
+              </tr>
+              <tr>
+                <td>중복 제거 영상</td>
+                <td>98개</td>
+                <td>통합본과 개별 재생목록의 중복을 제거해 관리합니다.</td>
+              </tr>
+              <tr>
+                <td>clean transcript</td>
+                <td>97개</td>
+                <td>ignored `source-materials/youtube-transcripts/clean/`에서 비공개 분석용으로만 봅니다.</td>
+              </tr>
+              <tr>
+                <td>주제 인덱스</td>
+                <td>생성됨</td>
+                <td>`source-materials/youtube-analysis/topic-index.md`로 문제 축에 맞는 강의를 찾습니다.</td>
+              </tr>
+              <tr>
+                <td>공개 HTML 반영</td>
+                <td>재작성만</td>
+                <td>자막 원문 대신 풀이 흐름, 조건 판별, 오답 포인트, 변형문제로 바꿉니다.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">PDF Cache</p>
+          <h2>비공개 PDF 자료 상태</h2>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>항목</th>
+                <th>상태</th>
+                <th>lesson 사용법</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>다운로드 PDF</td>
+                <td>15개</td>
+                <td>ignored `source-materials/found-pdfs/downloads/`에서만 비공개 분석용으로 봅니다.</td>
+              </tr>
+              <tr>
+                <td>주요 축</td>
+                <td>전기기기, 수변전, 단답, 감리, 필기배경</td>
+                <td>전기기기, 수변전, 단답, 감리 서식, 실기 재출제 필기개념으로 나누어 lesson 보강에 씁니다.</td>
+              </tr>
+              <tr>
+                <td>PDF topic index</td>
+                <td>생성됨</td>
+                <td>`source-materials/found-pdfs/analysis/topic-index.md`에서 문제 축과 맞는 자료를 찾습니다.</td>
+              </tr>
+              <tr>
+                <td>수동 후보</td>
+                <td>다산E북, 린치핀, 전기치트키</td>
+                <td>로그인/구매/수강 흐름이 필요한 자료는 후보로만 기록하고 자동 다운로드하지 않습니다.</td>
+              </tr>
+              <tr>
+                <td>공개 HTML 반영</td>
+                <td>재작성만</td>
+                <td>PDF 원문 대신 조건 판별, 공식 적용 순서, 오답 포인트, 자작 변형문제로 바꿉니다.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Source List</p>
+          <h2>등록한 YouTube 자료</h2>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>번호</th>
+                <th>자료</th>
+                <th>채널</th>
+                <th>분량</th>
+                <th>lesson 사용법</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td><a href="https://www.youtube.com/watch?v=VZFkDRh__1Y">전기기사 실기 단답 반복 영상</a></td>
+                <td>전기치트키</td>
+                <td>단일 영상</td>
+                <td>단답 암기 lesson 뒤에 귀 복습용으로 연결합니다.</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td><a href="https://www.youtube.com/playlist?list=PLima8mAJzF2h7hRK5sdK-78BCJuPY9SY6">전기(산업)기사 실기 꿀개념</a></td>
+                <td>전기뿌수기</td>
+                <td>26개 영상</td>
+                <td>변압기, CT/PT, 충전용량, 역률, PLC, 수변전, 조명 보강에 씁니다.</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td><a href="https://www.youtube.com/playlist?list=PLH_dx62QqZfy2zJb2GvcgjhDUrhPKUIA2">전기기사 실기 오장육부</a></td>
+                <td>전기치트키</td>
+                <td>21개 영상</td>
+                <td>실기 이론 뼈대입니다. 하루 5문제의 공식/조건 설명 근거로 연결합니다.</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td><a href="https://www.youtube.com/watch?v=AvihFwHmolY&amp;list=PLH_dx62QqZfx5ruVB54WPKu8VMhL1EjqP">전기자기학 치트키</a></td>
+                <td>전기치트키</td>
+                <td>15개 영상</td>
+                <td>정전용량, 유전체, 자기회로, 인덕턴스가 실기 이해를 막을 때만 봅니다.</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td><a href="https://www.youtube.com/watch?v=1QTbtktfZ_c&amp;list=PLH_dx62QqZfxkPezoRY7IfGtGwqWK9li1">전기기사 필기 치트키 통합본</a></td>
+                <td>전기치트키</td>
+                <td>9개 영상</td>
+                <td>회로, 제어, 자기학, 기기, 전력, KEC 전체를 찾는 목차로 씁니다.</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td><a href="https://www.youtube.com/watch?v=8rXjMMHiQl4&amp;list=PLH_dx62QqZfwJeGUvlHlITXCaqAM1ug6V">전기설비기술기준/KEC 치트키</a></td>
+                <td>전기치트키</td>
+                <td>7개 영상</td>
+                <td>접지, 지지물, 보호, 설비 기준 문제의 배경 확인용으로 씁니다.</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td><a href="https://www.youtube.com/watch?v=iQ3yXm0TjvQ&amp;list=PLH_dx62QqZfzUKFRuOHedxo8-dDQh5vNp">전력공학 치트키</a></td>
+                <td>전기치트키</td>
+                <td>12개 영상</td>
+                <td>송전선로, 역률, 단락/지락, 피뢰기, 계전기, 부하율 보강에 씁니다.</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td><a href="https://www.youtube.com/watch?v=yLE3DQ_rmwc&amp;list=PLH_dx62QqZfwEaR5XLzX9NFJygJdCM1wK">제어공학 치트키</a></td>
+                <td>전기치트키</td>
+                <td>5개 영상</td>
+                <td>제어 블록, 전달함수, 안정도 개념이 필요한 문제에서만 보조로 씁니다.</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td><a href="https://www.youtube.com/watch?v=1QTbtktfZ_c&amp;list=PLH_dx62QqZfwlb2buGt7Bp-UnE4y6syQb">회로이론 치트키</a></td>
+                <td>전기치트키</td>
+                <td>8개 영상</td>
+                <td>Y/델타, 테브난/노튼, 단자망, 회로 기초가 흔들릴 때 봅니다.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Mapping</p>
+          <h2>7개 이론 축에 붙이는 법</h2>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>이론 축</th>
+                <th>먼저 볼 자료</th>
+                <th>보강 자료</th>
+                <th>lesson 변환 포인트</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>송배전 선로</td>
+                <td>오장육부 1장, 전력공학</td>
+                <td>실기 꿀개념 충전전류/전선 굵기</td>
+                <td>단상/3상, 선간/상전압, 길이, 단위 변환을 먼저 묻습니다.</td>
+              </tr>
+              <tr>
+                <td>부하와 역률</td>
+                <td>오장육부 부하/역률, 전력공학 역률</td>
+                <td>실기 꿀개념 역률개선</td>
+                <td>유효전력, 피상전력, 무효전력의 개선 전/후 차이를 퀴즈로 만듭니다.</td>
+              </tr>
+              <tr>
+                <td>조명</td>
+                <td>오장육부 조명, 실기 꿀개념 조명설비</td>
+                <td>필기 통합본 전기응용</td>
+                <td>광속, 조도, 보수율, 조명률, 등 수 올림 처리를 순서 문제로 바꿉니다.</td>
+              </tr>
+              <tr>
+                <td>수변전 보호</td>
+                <td>오장육부 변성기/차단기/계전기</td>
+                <td>실기 꿀개념 CT/PT, 전력공학 계전기</td>
+                <td>기기 약호와 역할을 짝짓고, 차단용량 기준을 조건 판별로 묻습니다.</td>
+              </tr>
+              <tr>
+                <td>변압기와 전동기</td>
+                <td>오장육부 변압기/전동기</td>
+                <td>실기 꿀개념 변압기 결선, 발전기/전동기 공식</td>
+                <td>1차/2차 기준, 정격용량, 효율, 손실, 기동 조건을 분리합니다.</td>
+              </tr>
+              <tr>
+                <td>KEC와 설비 기준</td>
+                <td>KEC 치트키</td>
+                <td>오장육부 기준 문제, 전력공학 설비 파트</td>
+                <td>수치를 외우기 전에 적용 장소와 보호 목적을 먼저 고르게 합니다.</td>
+              </tr>
+              <tr>
+                <td>시퀀스와 PLC</td>
+                <td>실기 꿀개념 PLC, 논리회로</td>
+                <td>회로이론, 제어공학</td>
+                <td>ON 병렬, OFF 직렬, 자기유지, 인터록을 회로 상태 선택 문제로 만듭니다.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Workflow</p>
+          <h2>하루 5문제에 강의를 끼우는 순서</h2>
+        </div>
+        <ol>
+          <li>먼저 문제 5개를 풉니다. 강의는 풀이 전에 길게 보지 않습니다.</li>
+          <li>틀린 문제마다 이론 축을 1개 붙입니다.</li>
+          <li>위 표에서 해당 축의 첫 자료를 1개만 고릅니다.</li>
+          <li>시청 후 외울 문장 1개, 조건 판별 1개, 자작 변형문제 1개로 바꿉니다.</li>
+          <li>HTML lesson에는 강의 원문이 아니라 내 풀이 흐름과 오답 포인트만 남깁니다.</li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Next Queue</p>
+          <h2>다음 lesson에서 바로 쓸 후보</h2>
+        </div>
+        <div class="grid three">
+          <div class="panel">
+            <span class="panel-label">Line</span>
+            <h2>선로 계산</h2>
+            <p>전력공학 송전선로, 오장육부 전압강하, 실기 꿀개념 충전용량을 우선 연결합니다.</p>
+          </div>
+          <div class="panel">
+            <span class="panel-label">Memory</span>
+            <h2>단답 암기</h2>
+            <p>단답 반복 영상은 문제를 푼 뒤 마지막 5분 복습용으로만 둡니다.</p>
+          </div>
+          <div class="panel">
+            <span class="panel-label">Code</span>
+            <h2>KEC 기준</h2>
+            <p>KEC 치트키는 최신 기준 확인 전에는 배경 이해용으로만 쓰고, 수치 확정은 공식 기준을 확인합니다.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Topic Signal</p>
+          <h2>transcript 인덱스에서 강하게 잡힌 축</h2>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>축</th>
+                <th>검색 신호</th>
+                <th>해석</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>수변전 보호</td>
+                <td>72개 영상</td>
+                <td>차단기, CT/PT, 계전기, 단락/지락은 강의 기반 보강 자료가 풍부합니다.</td>
+              </tr>
+              <tr>
+                <td>변압기와 전동기</td>
+                <td>50개 영상</td>
+                <td>결선, 효율, 손실, 기동 조건은 transcript 기반 오답 포인트를 만들기 좋습니다.</td>
+              </tr>
+              <tr>
+                <td>송배전 선로</td>
+                <td>45개 영상</td>
+                <td>전압강하, 전선 굵기, 충전전류/용량을 계산형 lesson에 바로 연결합니다.</td>
+              </tr>
+              <tr>
+                <td>시퀀스와 PLC</td>
+                <td>2개 영상</td>
+                <td>강의 수가 적으므로 문제 풀이와 직접 만든 회로 퀴즈로 보강합니다.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Source Safety</p>
+          <h2>공개 범위</h2>
+        </div>
+        <div class="empty-state">
+          <p>수집일: 2026-07-02. 공개 HTML에는 링크, 제목, 학습 용도, 직접 재작성한 요약만 포함합니다.</p>
+          <p>YouTube 자막 전문, 영상 대본, 강의노트 원문, 유료자료 본문은 저장하거나 재게시하지 않습니다.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>다음 단계: 2024년 1회 11-15번 lesson을 만들 때 이 지도에서 축별 강의를 1개씩만 연결합니다.</p>
+    </footer>
+      </div>
+    </div>
+  </body>
+</html>
