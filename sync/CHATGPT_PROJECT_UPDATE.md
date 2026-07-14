@@ -29,7 +29,7 @@ Last updated: 2026-07-14
 - PDF source/candidate status: `source-materials/found-pdfs/README.md`
 - User-added PDFs on 2026-07-03: supervision problems, Linchpin theory cheatkey, 27 practical-written theory questions, short-answer notes with answers
 - 학습 재개 준비 완료: 다음 5문제 범위는 2024년 1회 16-18번 + 2024년 2회 1-2번
-- 별도 1문제 대화형 진단은 5문제 중 2문제 완료, 3번째 문제 답변 대기 중
+- 별도 1문제 대화형 진단은 5문제 완료. 1~3번은 각 1회 힌트 후 정답 흐름에 도달했고, 4~5번은 공식/판단 근거를 바로 인출했다.
 
 ## How To Use This On Mobile
 
@@ -80,8 +80,8 @@ current_status.md, sync/CHATGPT_PROJECT_UPDATE.md를 먼저 읽어줘.
 
 ## Next
 
-- Codex Cloud에서는 위 재개용 프롬프트로 별도 대화형 진단 3/5부터 이어간다.
-- 직전 레슨 0003의 XOR, 램프 효율, 펌프 출력 공식을 5분간 회상한다.
+- 다음 대화형 진단은 효율/역률/단위 환산을 섞은 짧은 회상 문제부터 시작한다.
+- 직전 레슨 0003의 XOR와 펌프 출력 공식, 그리고 기존 진단에서 흔들린 효율/역률 적용 방향을 5분간 회상한다.
 - lesson 0004는 2024년 1회 16-18번 + 2024년 2회 1-2번의 5문제 세트로 만든다.
 - YouTube 강의자료 지도에서 문제 축별 관련 강의를 1개만 연결한다.
 - PDF topic index에서 필요한 단답/전기기기/수변전 자료 1개만 골라 오답 포인트를 보강한다.
